@@ -28,7 +28,5 @@ function Status_line(id, h, back, tops) {
     
 }
 
- // Status_line(); // статусная строка по умолчанию
- Status_line('stat', '10px', 'blue', '15px'); // создать строку с id = stat, высотой 10px, синего цвета и с отступом сверху на 15px;
-
-
+ Status_line(); // статусная строка по умолчанию
+ 
