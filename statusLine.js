@@ -1,10 +1,5 @@
 
-
-
 function Status_line(id, h, back, tops) {
-
-
-
     this.id = (id != undefined) ? id : 'status-line';
     this.h = (h != undefined) ? h : '5px';
     this.back = (back != undefined) ? back : '#E91E63';
